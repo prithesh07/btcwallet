@@ -31,6 +31,9 @@ require (
 	google.golang.org/grpc v1.59.0
 )
 
+replace github.com/btcsuite/btcd => /root/btcdmod1/btcd
+replace github.com/btcsuite/btcd/btcec/v2 => github.com/btcsuite/btcd/btcec/v2 v2.2.2
+
 require (
 	github.com/aead/siphash v1.0.1 // indirect
 	github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd // indirect
